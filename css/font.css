@@ -1,0 +1,35 @@
+			@font-face{
+				font-family:raleway;
+				src:url(../fonts/raleway-thin.ttf);
+				font-weight: 100;
+			}
+			@font-face{
+				font-family:ralewayreg;
+				src:url(../fonts/raleway-regular.ttf);
+				font-weight: 100;
+			}
+			@font-face{
+				font-family:ralewayl;
+				src:url(../fonts/raleway-light.ttf);
+				font-weight: 100;
+			}
+			@font-face{
+				font-family:vonique;
+				src:url(../fonts/vonique.ttf);
+				font-weight: 100;
+			}
+			@font-face{
+				font-family:robom;
+				src:url(../fonts/roboto-medium.ttf);
+				font-weight: 100;
+			}
+			@font-face{
+				font-family:robob;
+				src:url(../fonts/roboto-bold.ttf);
+				font-weight: 100;
+			}
+			@font-face{
+				font-family:robol;
+				src:url(../fonts/Roboto-Light.ttf);
+				font-weight: 100;
+			}

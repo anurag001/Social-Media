@@ -1,0 +1,219 @@
+#mynav{
+	/*background-image: linear-gradient(to bottom,rgb(13,130,200),rgb(35,122,186),rgb(50,117,199));*/
+	/*background-image: linear-gradient(to bottom,rgb(50,117,199),rgb(13,130,200),#28a4c9);*/
+	background-image: linear-gradient(to bottom,#ffa500,#ff8d00,#ff7400);
+}
+a{
+	text-decoration:none;
+}
+#signin,#signup,#aboutus{
+	color:#ff8d00;
+	z-index:500;
+}
+#brand-title{
+	font-family:vonique;
+	font-size:2.5em;
+	color:#fff;
+	text-shadow:0px 0px 2px black;
+}
+#reg-form{
+	padding:20px;
+}
+#login-form{
+	padding:20px;
+}
+#nav-pioneer{
+	font-family:vonique;
+	font-size:1.8em;
+	color:#fff;
+	text-shadow:0px 0px 2px black;
+}
+#glyph{
+	color:#fff;
+	font-size:1.1em;
+	font-family:robol;
+}
+
+#sign-section{
+	padding-top:60px;
+	background-image: url("../images/bg.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+    background-clip: padding-box;
+	height:650px;
+}
+#sign-nav{
+	font-family:ralewayreg;
+	font-size:1.9em;
+	text-shadow:0px 0px 1px black;
+	text-align:center;
+}
+body{
+	background-color:#fff;
+	overflow-x:auto;
+	overflow-y:scroll;
+	word-wrap:break-word;
+	font-size:15px;
+	height:100px;
+}
+#sign-in,#about-us,#email-info,#username-info,#success{
+	display:none;
+}
+#features{
+	padding-top:40px;
+}
+#cover-photo{
+	margin-top:30px;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+    background-clip: padding-box;
+	height:250px;
+}
+#topic-pic-show{
+	height:139px;
+	width:260px;
+	border:0px;
+	padding:0px;
+	border-radius:3px;
+}
+#profile-pic{
+	margin-top:125px;
+	margin-left:25px;
+	height:170px;
+	width:170px;
+	border:0px 0px 8px #d3d3d3;
+}
+#pioneer-tabs{
+	margin-top:350px;
+	font-family:robol;
+	font-size:0.9em;
+	color:#176db0;
+	background-color:#fff;
+}
+#searchResult{
+	font-family:ralewayreg;
+	color:black;
+}
+#askid{
+	display:none;
+	
+}
+#askbtn,#postbtn{
+	cursor:pointer;
+}
+#timeline-result{
+	padding-top:40px;
+}
+#post-box{
+}
+
+#xs_prof_pic{
+	padding:5px;
+	border-radius:5px;
+	height:50px;
+	width:50px;
+	display:block;
+}
+#lg_post_pic{
+	display:block;
+	max-height:380px;
+	width:530px;
+}
+#profile-pic,#cover-photo-upload{
+	cursor:pointer;
+}
+#overlay,#overlaypic,#overlaycoverpic,#overlaytopic{
+	height:100%;
+	width:100%;
+	background-color:rgb(85,85,85);
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+	overflow-x: hidden;
+    overflow-y: auto;
+	display:none;
+}
+#edit-profile,#edit-profile-pic{
+	margin-top:50px;
+	display:block;
+	position:relative;
+	background-clip: padding-box;
+	box-shadow: 0 3px 9px rgba(0,0,0,.5);
+
+}
+#close,#close2,#close3,#close4{
+
+	float:right;
+}
+#upload-prof-chooser{
+    border: 2px dashed #ccc;
+    padding: 12px 24px;
+    clear: both;
+    color: green;
+    cursor: pointer;
+    width: 100%;
+}
+#profile-pic-small{
+	height:48px;
+	width:48px;
+	border-radius:2px;
+}
+#edit-cover-pic{
+	margin-top:30px;
+}
+#drop-reply-box
+{
+	display:none;
+}
+#follower-profile-pic{
+	display:block;
+	height:70px;
+	width:70px;
+	border-radius:5px;
+}
+#followings-profile-pic{
+	display:block;
+	height:190px;
+	width:190px;
+	border-radius:0px;
+}
+#follower-cover-pic{
+	display:block;
+	height:96px;
+	width:287.96px;
+	background-clip: padding-box;
+
+}
+#show-profile-details{
+	overflow:hidden;
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    border-radius:0px !important;
+    border:0px !important;
+    overflow:auto;
+}
+.disp{
+	display:block;
+	padding:2.0px;
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    overflow:auto;
+}
+textarea{
+	resize:none;
+}
